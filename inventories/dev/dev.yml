@@ -1,12 +1,12 @@
 dev:
   children:
-    webserver:
+    webservers:
       hosts:
         ubuntu-01.dawid.in:
           ansible_host: 192.168.1.120
         ubuntu-02.dawid.in:
           ansible_host: 192.168.1.121
-    loadbalancers:
+    loadbalancer:
       hosts:
          ubuntu-03.dawid.in:
           ansible_host: 192.168.1.122

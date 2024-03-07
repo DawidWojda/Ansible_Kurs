@@ -1,0 +1,18 @@
+dev:
+  children:
+    webserver:
+      hosts:
+        ubuntu-01.dawid.in:
+          anisble_host: 10.42.102.78
+        ubuntu-02.dawid.in:
+          anisble_host: IP / FQDN
+    loadbalancers:
+      hosts:
+         ubuntu-03.dawid.in:
+          anisble_host: IP / FQDN
+
+local:
+  children:
+    dawid_pc:
+      master_ansile:
+        ansible_host: localhost

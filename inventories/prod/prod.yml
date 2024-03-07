@@ -1,0 +1,15 @@
+all:
+  children:
+    group1:
+      hosts:
+        host1:
+          anisble_host: IP / FQDN
+        host2:
+          anisble_host: IP / FQDN
+    group2:
+      hosts:
+        host3:
+          anisble_host: IP / FQDN
+        host4:
+          anisble_host: IP / FQDN
+  
